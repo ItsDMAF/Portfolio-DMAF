@@ -1,8 +1,10 @@
+import styles from './Header.module.css'
+
 function Header() {
   return (
-    <header>
-      <h1>DMAF</h1>
-      <ul>
+    <header className={styles.navbar}>
+      <h1>Diego Andino</h1>
+      <ul className={styles.list}>
         <li>
           <a href="/">Home</a>
         </li>
