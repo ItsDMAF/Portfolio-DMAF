@@ -3,13 +3,13 @@ import styles from './Header.module.css'
 function Header() {
   return (
     <header className={styles.navbar}>
-      <h1>Diego Andino</h1>
+      <h1 className={styles.name}>Diego Andino</h1>
       <ul className={styles.list}>
         <li>
-          <a href="/">Home</a>
+          <a href="/">About</a>
         </li>
         <li>
-          <a href="/">About me</a>
+          <a href="/">Portfolio</a>
         </li>
         <li>
           <a href="/">Services</a>
@@ -18,6 +18,7 @@ function Header() {
           <a href="/">Contact</a>
         </li>
       </ul>
+      <h1 className={styles.language}>Language</h1>
     </header>
   );
 }
