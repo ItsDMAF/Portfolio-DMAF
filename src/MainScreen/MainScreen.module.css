@@ -1,3 +1,15 @@
 .maincontainer {
-    border: solid 10px black;
+    background-color: rgb(196, 204, 210);
+    border: solid 5px rgb(31, 31, 31);
+    border-radius: 30px;
+    height: 70vh;
+    width: 120vh;
+    margin: auto;
+    overflow:auto;
+}
+
+.header {
+    height: 10vh;
+    width: 120vh;
+    background-color: rgb(31, 31, 31);
 }
